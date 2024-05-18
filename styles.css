@@ -120,7 +120,7 @@ header {
 }
 .logo {
   color: var(--nav-txt-clr);
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   text-decoration: none;
   margin-right: 2rem;
 }
@@ -182,15 +182,15 @@ header {
   }
   .navbar {
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction:row;
     background-color: var(--mobile-menu-bg-clr);
     position: absolute;
     padding: 0.5rem 5rem 1rem 1rem;
     border-radius: 0.5rem 0 0 0.5rem;
     top: 5rem;
-    right: 0;
+    right:10;
     transform: scaleX(0);
-    transform-origin: right;
+    transform-origin: left;
     transition: transform 200ms;
   }
   .show-nav {
@@ -200,7 +200,7 @@ header {
 /* ----- ----------- ------ */
 .social-links {
   display: flex;
-  align-items: center;
+  align-items:right;
 }
 .social-links ul {
   display: flex;
